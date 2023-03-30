@@ -22,7 +22,7 @@ main {
     max-width: 1024px;
     padding: 16px;
 }
-.canvas1 {
+canvas {
     padding: 0;
     margin: auto;
     width: auto;
