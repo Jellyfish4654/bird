@@ -25,4 +25,6 @@ main {
 canvas {
     padding: 0;
     margin: auto;
+    width: auto;
+    height: auto;
 }
