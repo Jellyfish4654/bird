@@ -9,17 +9,16 @@ body {
 }
 header {
   margin: auto;
-  width: 431px;
-}
-h1 {
-  background: url("https://i.ibb.co/Q9yv5Jk/flappy-bird-set.png") 0% 340px;
-  padding: 1.2rem 0;
-  margin: 0;
-  text-align: center;
+  width: center;
 }
 .score-container {
   display: flex;
   justify-content: space-between;
   padding: 8px 6px;
   background: #5EE270;
+}
+main {
+    margin: auto;
+    max-width: 1024px;
+    padding: 16px;
 }

@@ -1,7 +1,6 @@
 <html>
 
   <header>
-    <h1>Flappy Bird</h1>
     <div class="score-container">
       <div id="bestScore"></div>
       <div id="currentScore"></div>
