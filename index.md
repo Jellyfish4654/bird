@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <canvas></canvas>
@@ -371,5 +370,4 @@ var Pong = Object.assign({}, Game);
 Pong.initialize();
 </script>
 
-</body>
 </html>
