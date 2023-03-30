@@ -22,3 +22,9 @@ main {
     max-width: 1024px;
     padding: 16px;
 }
+canvas {
+    padding: 0;
+    margin: auto;
+    height: 85%;
+    width: 85%;
+}
