@@ -5,7 +5,7 @@ title: Easter Egg
 
 <canvas></canvas>
 
-
+<script>
 // Global Variables
 var DIRECTION = {
 	IDLE: 0,
@@ -371,3 +371,4 @@ var Game = {
 
 var Pong = Object.assign({}, Game);
 Pong.initialize();
+</script>
