@@ -34,10 +34,10 @@ plugins:
   - jekyll-feed
 
 include:
- - java
+ - pongGame.js
  - style.css
  - 404.md
- - ftc
+ - pong.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
