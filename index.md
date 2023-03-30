@@ -7,7 +7,7 @@
     </div>
   </header>
 
-<canvas id="canvas"></canvas>
+<canvas id="canvas" width=auto height=auto></canvas>
 
 <script>
   const canvas = document.getElementById('canvas');
