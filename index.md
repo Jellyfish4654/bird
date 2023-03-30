@@ -1,5 +1,12 @@
 <html>
 
+  <header>
+    <div class="score-container">
+      <div id="bestScore"></div>
+      <div id="currentScore"></div>
+    </div>
+  </header>
+
   <canvas id="canvas" width="431" height="768"></canvas>
 
 <script>
