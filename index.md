@@ -1,5 +1,12 @@
 <html>
 
+  <header>
+    <div class="score-container">
+      <div id="bestScore"></div>
+      <div id="currentScore"></div>
+    </div>
+  </header>
+
   <canvas id="canvas" width="431" height="768"></canvas>
 
 <script>
@@ -92,7 +99,6 @@ const render = () => {
     ctx.drawImage(img, 432, Math.floor((index % 9) / 3) * size[1], ...size, ((canvas.width / 2) - size[0] / 2), flyHeight, ...size);
     flyHeight = (canvas.height / 2) - (size[1] / 2);
       // text accueil
-    ctx.fillText(`Score : ${currentScore}`, 85, 200);
     ctx.fillText(`Best score : ${bestScore}`, 85, 245);
     ctx.fillText('Click to play', 90, 535);
     ctx.font = "bold 30px courier";
